@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+nav,
+div,
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: auto;
+     z-index: 10;
+}
+
+li {
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+li a {
+    width: 290px;
+    color: white;
+    transition: 0.5s;
+    line-height: 30px;
+}
+a:hover {
+    color: black;
+}
+li:hover {
+    background-color: darkgray;
+    color: black;
+}
+#header , .row , .header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 code {
+    font-size: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px black;
+}
+
+.p1 code {
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#carouselExampleControls {
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 code{
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.p2 code{
+    top: 100px;
+    left: 50%;
+     transform: translate(-50%, 0);
+    
+}
+.p3{
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-left: 10px solid darkgray;
+}
+#about{
+    width: 100%;
+}
+.text-2 {
+    border-left: 15px solid darkgray;
+}
+.img{
+    width: 649px;
+    height: 300px;
+    background: url(../img/2.jpg) no-repeat center center;  
+    background-size: cover;
+}
+.option{
+    width: 649px;
+    height: 50px;
+    border: 2px solid black;
+}
+.eat ,.drink{ 
+    width: 45%;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.text2{
+    width: 649px;
+    height: 750px;
+    font-size: 22px; 
+}
+.img2{
+    background: url(../img/map.jpg) no-repeat center center;
+}
+.img1{
+    background: url(../img/coffeehouse2.jpg) no-repeat center center;
+    margin-top: 2%;
+}
+.footer{
+    background: url(../img/BG.jpg) no-repeat center bottom;
+    background-size: cover;
+    font-size: 25px;
+}
+@media screen and (min-width: 1117px){
+        .text , .text2{
+        margin: 0 20%;
+    }
+}
+@media screen and (max-width: 1116px) and (min-width: 915px) {
+    h1 code {
+        font-size: 80px;
+        top:50%;
+        left: 50%;
+
+    }
+    .p1 code {
+        font-size: 30px;
+        top: 90%;
+        left: 50%
+    }
+    .text , .text2 , .option{
+        margin: 0 15%;
+    }
+
+}
+@media screen and (max-width: 914px) and (min-width:770px){
+       h1 code {
+        font-size: 65px;
+        top:40%;
+        left: 50%;
+
+    }
+
+    .p1 code {
+        font-size: 25px;
+        top: 75%;
+        left: 50%
+    }
+    
+
+}
+@media screen and (max-width: 770px) and (min-width:658px){
+    h1 code {
+        font-size: 65px;
+        top: 40%;
+        left: 50%;
+    }
+    .p1 code {
+        font-size: 20px;
+        top: 70%;
+        left: 50%;
+    }
+    input{
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width:732px) and (min-width:657px){
+        h1 code {
+        font-size: 55px;
+        top: 37%;
+        left: 50%;
+    }
+    .p1 code {
+        font-size: 20px;
+        top: 60%;
+        left: 50%;
+    }  
+    input{
+        margin: 0 10%;
+    }
+}
+@media screen and (max-width: 656px) {
+        h1 code {
+        font-size: 45px;
+        top: 35%;
+        left: 50%;
+    }
+    .p1 code {
+        font-size: 18px;
+        top: 60%;
+        left: 50%;
+    }
+      input{
+        margin: 0 10%;
+    }
+}
+@media screen and (max-width:610px){
+            h1 code {
+        font-size: 40px;
+        top: 24%;
+        left: 50%;
+    }
+    .p1 code {
+        font-size: 18px;
+        top: 45%;
+        left: 50%;
+    }  
+      input{
+        margin: 0 15%;
+    }
+}
+
+
